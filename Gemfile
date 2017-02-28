@@ -17,6 +17,9 @@ group :production do
   gem 'rails_12factor'
 end
 
+# Use Twitter Bootstraps for style
+gem 'bootstrap-sass', '~> 3.3.6'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
