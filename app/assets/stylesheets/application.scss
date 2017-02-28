@@ -26,19 +26,38 @@ body{
   color: #57C1BD;
 }
 
-h1{
-  display: inline-block;
+.head{
+  background-image: url("mtn.jpg");
+  background-repeat: no-repeat;
+  background-position: center, bottom;
+  background-size: auto;
+  height: 300px;
+  margin-left: -50px;
 }
 
-.head{
-  background-image: image();
-  border: solid 1px white; border-radius: 10px;
-  height: 200px;
+#headname{
+  width: 356px; height: 175px;
+  margin-left: -50px; margin-top: -25px;
+  border: solid 10px white;
+  border-radius: 15px;
+  background-color: white;
+  opacity: .4;
+  position: absolute;
+}
+
+h1, h3{
+  display: inline-block;
+  color: black;
+  opacity: 1;
+}
+
+.name{
+  top: 100px;
 }
 
 .fa-code{
    display: inline-block;
    position: absolute;
    height: 30px; width: 30px;
-   margin-left: -30px; margin-top: 10px;
+   margin-top: 10px;
 }
