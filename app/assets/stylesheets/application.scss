@@ -29,10 +29,9 @@ body{
 .head{
   background-image: url("mtn.jpg");
   background-repeat: no-repeat;
-  background-position: center, bottom;
+  background-position: 80% 80%;
   background-size: auto;
-  height: 300px;
-  margin-left: -50px;
+  height: 400px;
 }
 
 #headname{
@@ -41,7 +40,7 @@ body{
   border: solid 10px white;
   border-radius: 15px;
   background-color: white;
-  opacity: .4;
+  opacity: .2;
   position: absolute;
 }
 
