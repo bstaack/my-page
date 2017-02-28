@@ -19,7 +19,8 @@ end
 
 # Use Twitter Bootstraps for style
 gem 'bootstrap-sass', '~> 3.3.6'
-
+# Use FontAwesome for icons, fonts
+gem "font-awesome-rails"
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
