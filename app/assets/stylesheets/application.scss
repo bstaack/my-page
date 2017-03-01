@@ -18,12 +18,12 @@
 @import "bootstrap";
 @import "font-awesome";
 
-body{
-  background-color: #333333;
-}
-
 *{
   color: #57C1BD;
+}
+
+body{
+  background-color: #333333;
 }
 
 .head{
@@ -40,7 +40,7 @@ body{
   border: solid 10px white;
   border-radius: 15px;
   background-color: white;
-  opacity: .2;
+  opacity: .3;
   position: absolute;
 }
 
