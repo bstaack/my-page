@@ -35,31 +35,19 @@ body{
 }
 
 #headname{
-  width: 356px; height: 175px;
-  border: solid 10px white;
+  border: 10px solid white;
   border-radius: 15px;
   background-color: white;
   opacity: .5;
-  position: absolute;
 }
 
-h1, h3{
-  display: inline-block;
+h1, #webdev{
   color: black;
-  opacity: 1;
   text-align: center;
-  width: 356px;
 }
 
 .name{
   top: 100px;
-}
-
-.fa-code{
-   display: inline-block;
-   position: absolute;
-   height: 30px; width: 30px;
-   margin: 15px 0px 0px 25px;
 }
 
 ul, li{
