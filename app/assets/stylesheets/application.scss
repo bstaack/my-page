@@ -63,3 +63,17 @@ ul, li{
 .btn{
   margin-top: 3px;
 }
+
+//bounce animation
+.pulsate-fwd {
+	-webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
+	-moz-animation: pulsate-fwd 0.5s ease-in-out infinite both;
+	animation: pulsate-fwd 0.5s ease-in-out infinite both;
+}
+
+//ken burns effect
+.bg-pan-top {
+	-webkit-animation: bg-pan-top 15s both;
+	-moz-animation: bg-pan-top 15s both;
+	animation: bg-pan-top 15s both;
+}
