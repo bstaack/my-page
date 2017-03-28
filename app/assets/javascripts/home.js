@@ -5,9 +5,9 @@ $(document).on('turbolinks:load', function(){
     $(this).toggleClass('pulsate-fwd');
   });
 
-  $('.head').hover(function(){
-    $(this).toggleClass('bg-pan-top');
+  $('.head').addClass('bg-pan-top');
+  $( '.head' ).hover(function() {
+    $( '.head' ).toggleClass('pause');
   });
-
 
 });

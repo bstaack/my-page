@@ -29,7 +29,7 @@ body{
 .head{
   background-image: image-url("mtn.jpg");
   background-repeat: no-repeat;
-  background-position: 80% 80%;
+  background-position: 50% 100%;
   background-size: auto;
   height: 400px;
 }
@@ -38,7 +38,7 @@ body{
   border: 10px solid white;
   border-radius: 15px;
   background-color: white;
-  opacity: .5;
+  opacity: .75;
 }
 
 h1, #webdev{
@@ -76,4 +76,10 @@ ul, li{
 	-webkit-animation: bg-pan-top 15s both;
 	-moz-animation: bg-pan-top 15s both;
 	animation: bg-pan-top 15s both;
+}
+
+.pause {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	animation-play-state: paused;
 }
